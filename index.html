@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hôpital Professionnel – Soins d'excellence</title>
+  <meta name="description" content="Site vitrine professionnel de l'hôpital : médecins, services, équipements, horaires et coordonnées.">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top shadow-sm">
+    <div class="container">
+      <a class="navbar-brand fw-bold d-flex align-items-center" href="#accueil">
+        <img src="https://cdn-icons-png.flaticon.com/512/2966/2966327.png" alt="Logo" class="logo-img me-2" width="40" height="40">
+        Hôpital Professionnel
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#accueil">Accueil</a></li>
+          <li class="nav-item"><a class="nav-link" href="#apropos">À propos</a></li>
+          <li class="nav-item"><a class="nav-link" href="#medecins">Médecins</a></li>
+          <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="#equipements">Équipements</a></li>
+          <li class="nav-item"><a class="nav-link" href="#horaires">Horaires</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <section id="accueil" class="hero-section d-flex align-items-center">
+    <div class="container text-center text-white">
+      <h1 class="display-4 fw-bold mb-3">Des soins d'excellence pour votre santé</h1>
+      <p class="lead mb-4">Un établissement moderne, des équipes expertes et des équipements de pointe au service de votre bien-être.</p>
+      <a href="#contact" class="btn btn-light btn-lg me-2">Prendre contact</a>
+      <a href="#services" class="btn btn-outline-light btn-lg">Nos services</a>
+    </div>
+  </section>
+  <section id="apropos" class="py-5">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6 mb-4 mb-lg-0">
+          <h2 class="section-title">À propos de notre hôpital</h2>
+          <p class="text-muted">Fondé sur des valeurs d'excellence, d'humanité et d'innovation, notre hôpital accueille chaque patient avec professionnalisme et bienveillance.</p>
+          <p>Nous mettons à votre disposition une équipe pluridisciplinaire, des technologies de pointe et un environnement moderne pour garantir les meilleurs soins possibles.</p>
+          <ul class="list-unstyled mt-3">
+            <li class="mb-2"><i class="bi bi-check-circle-fill text-primary me-2"></i>Plus de 20 ans d'expérience</li>
+            <li class="mb-2"><i class="bi bi-check-circle-fill text-primary me-2"></i>Équipes médicales hautement qualifiées</li>
+            <li class="mb-2"><i class="bi bi-check-circle-fill text-primary me-2"></i>Infrastructures modernes et sécurisées</li>
+          </ul>
+        </div>
+        <div class="col-lg-6">
+          <div class="about-card p-4 rounded-4 shadow-sm bg-light">
+            <div class="row text-center g-3">
+              <div class="col-6"><div class="stat-box"><h3 class="text-primary fw-bold mb-0"><span class="counter" data-target="150" data-suffix="+">0</span></h3><small class="text-muted">Professionnels</small></div></div>
+              <div class="col-6"><div class="stat-box"><h3 class="text-primary fw-bold mb-0"><span class="counter" data-target="12" data-suffix="">0</span></h3><small class="text-muted">Spécialités</small></div></div>
+              <div class="col-6"><div class="stat-box"><h3 class="text-primary fw-bold mb-0"><span class="counter" data-target="24" data-suffix="/7">0</span></h3><small class="text-muted">Urgences</small></div></div>
+              <div class="col-6"><div class="stat-box"><h3 class="text-primary fw-bold mb-0"><span class="counter" data-target="98" data-suffix="%">0</span></h3><small class="text-muted">Satisfaction</small></div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="medecins" class="py-5 bg-light">
+    <div class="container">
+      <div class="text-center mb-5"><h2 class="section-title">Nos médecins</h2><p class="text-muted">Une équipe d'experts dévoués à votre santé</p></div>
+      <div class="row g-4">
+        <div class="col-md-6 col-lg-3"><div class="card doctor-card h-100 border-0 shadow-sm overflow-hidden"><img src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=format&fit=crop&w=600&q=80" class="card-img-top doctor-photo" alt="Dr Sophie"><div class="card-body text-center"><h5 class="card-title mb-1">Dr. Sophie Martin</h5><p class="text-primary small mb-2">Cardiologue</p><p class="card-text small text-muted">Spécialiste des pathologies cardiaques avec plus de 15 ans d'expérience.</p></div></div></div>
+        <div class="col-md-6 col-lg-3"><div class="card doctor-card h-100 border-0 shadow-sm overflow-hidden"><img src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?auto=format&fit=crop&w=600&q=80" class="card-img-top doctor-photo" alt="Dr Jean"><div class="card-body text-center"><h5 class="card-title mb-1">Dr. Jean Dupont</h5><p class="text-primary small mb-2">Chirurgien orthopédiste</p><p class="card-text small text-muted">Expert en chirurgie articulaire et traumatologie du sport.</p></div></div></div>
+        <div class="col-md-6 col-lg-3"><div class="card doctor-card h-100 border-0 shadow-sm overflow-hidden"><img src="https://images.unsplash.com/photo-1594824476967-48c8b964273f?auto=format&fit=crop&w=600&q=80" class="card-img-top doctor-photo" alt="Dr Amira"><div class="card-body text-center"><h5 class="card-title mb-1">Dr. Amira Benali</h5><p class="text-primary small mb-2">Pédiatre</p><p class="card-text small text-muted">Prise en charge complète des enfants de 0 à 18 ans.</p></div></div></div>
+        <div class="col-md-6 col-lg-3"><div class="card doctor-card h-100 border-0 shadow-sm overflow-hidden"><img src="https://images.unsplash.com/photo-1622253692010-333f2da6031d?auto=format&fit=crop&w=600&q=80" class="card-img-top doctor-photo" alt="Dr Thomas"><div class="card-body text-center"><h5 class="card-title mb-1">Dr. Thomas Leroy</h5><p class="text-primary small mb-2">Radiologue</p><p class="card-text small text-muted">Imagerie médicale de haute précision (IRM, scanner, échographie).</p></div></div></div>
+      </div>
+    </div>
+  </section>
+  <section id="services" class="py-5">
+    <div class="container">
+      <div class="text-center mb-5"><h2 class="section-title">Nos services</h2><p class="text-muted">Une gamme complète de soins pour tous les besoins</p></div>
+      <div class="row g-4">
+        <div class="col-md-6 col-lg-4"><div class="service-card h-100 rounded-4 shadow-sm overflow-hidden"><img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=800&q=80" class="service-photo" alt="Cardio"><div class="p-4"><h5>Cardiologie</h5><p class="text-muted small mb-0">Consultation, examens et suivi des maladies cardiovasculaires.</p></div></div></div>
+        <div class="col-md-6 col-lg-4"><div class="service-card h-100 rounded-4 shadow-sm overflow-hidden"><img src="https://images.unsplash.com/photo-1551076805-e1869033e561?auto=format&fit=crop&w=800&q=80" class="service-photo" alt="Chir"><div class="p-4"><h5>Chirurgie</h5><p class="text-muted small mb-0">Interventions chirurgicales programmées et urgentes dans un environnement sécurisé.</p></div></div></div>
+        <div class="col-md-6 col-lg-4"><div class="service-card h-100 rounded-4 shadow-sm overflow-hidden"><img src="https://images.unsplash.com/photo-1631217868264-e5b90bb7e133?auto=format&fit=crop&w=800&q=80" class="service-photo" alt="Pedia"><div class="p-4"><h5>Pédiatrie</h5><p class="text-muted small mb-0">Soins adaptés aux enfants et adolescents, dans un cadre rassurant.</p></div></div></div>
+        <div class="col-md-6 col-lg-4"><div class="service-card h-100 rounded-4 shadow-sm overflow-hidden"><img src="https://images.unsplash.com/photo-1516574187841-cb9cc2ca948b?auto=format&fit=crop&w=800&q=80" class="service-photo" alt="Urgences"><div class="p-4"><h5>Urgences</h5><p class="text-muted small mb-0">Service d'urgence ouvert 24h/24 et 7j/7 pour les cas critiques.</p></div></div></div>
+        <div class="col-md-6 col-lg-4"><div class="service-card h-100 rounded-4 shadow-sm overflow-hidden"><img src="https://images.unsplash.com/photo-1516549655169-df83a0774514?auto=format&fit=crop&w=800&q=80" class="service-photo" alt="Img"><div class="p-4"><h5>Imagerie médicale</h5><p class="text-muted small mb-0">IRM, scanner, radiographie et échographie de dernière génération.</p></div></div></div>
+        <div class="col-md-6 col-lg-4"><div class="service-card h-100 rounded-4 shadow-sm overflow-hidden"><img src="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&w=800&q=80" class="service-photo" alt="Hosp"><div class="p-4"><h5>Hospitalisation</h5><p class="text-muted small mb-0">Chambres confortables et équipes soignantes disponibles en continu.</p></div></div></div>
+      </div>
+    </div>
+  </section>
+  <section id="equipements" class="py-5 bg-light">
+    <div class="container">
+      <div class="text-center mb-5"><h2 class="section-title">Nos équipements</h2><p class="text-muted">Des technologies de pointe pour des diagnostics et traitements précis</p></div>
+      <div class="row g-4">
+        <div class="col-md-4"><div class="equip-card text-center p-4 rounded-4 bg-white shadow-sm h-100"><img src="https://images.unsplash.com/photo-1581594693702-fbdc51b2763b?auto=format&fit=crop&w=600&q=80" class="equip-photo mb-3 rounded-3" alt="IRM"><h5>IRM 3 Tesla</h5><p class="text-muted small">Imagerie par résonance magnétique haute résolution pour un diagnostic ultra-précis.</p></div></div>
+        <div class="col-md-4"><div class="equip-card text-center p-4 rounded-4 bg-white shadow-sm h-100"><img src="https://images.unsplash.com/photo-1530497610245-94d3c16cda28?auto=format&fit=crop&w=600&q=80" class="equip-photo mb-3 rounded-3" alt="Scan"><h5>Scanner multicoupe</h5><p class="text-muted small">Scanner de dernière génération permettant des examens rapides et détaillés.</p></div></div>
+        <div class="col-md-4"><div class="equip-card text-center p-4 rounded-4 bg-white shadow-sm h-100"><img src="https://images.unsplash.com/photo-1551190822-a9333d879b1f?auto=format&fit=crop&w=600&q=80" class="equip-photo mb-3 rounded-3" alt="Bloc"><h5>Bloc opératoire moderne</h5><p class="text-muted small">Salles d'opération équipées des technologies les plus avancées.</p></div></div>
+      </div>
+    </div>
+  </section>
+  <section id="horaires" class="py-5">
+    <div class="container">
+      <div class="text-center mb-5"><h2 class="section-title">Horaires d'ouverture</h2><p class="text-muted">Nous sommes là pour vous</p></div>
+      <div class="row justify-content-center"><div class="col-lg-8"><div class="table-responsive">
+        <table class="table table-bordered table-hover text-center align-middle">
+          <thead class="table-primary"><tr><th>Service</th><th>Lundi – Vendredi</th><th>Samedi</th><th>Dimanche</th></tr></thead>
+          <tbody>
+            <tr><td class="fw-semibold">Consultations</td><td>08h00 – 18h00</td><td>08h00 – 12h00</td><td>Fermé</td></tr>
+            <tr><td class="fw-semibold">Urgences</td><td colspan="3">24h/24 – 7j/7</td></tr>
+            <tr><td class="fw-semibold">Imagerie médicale</td><td>08h00 – 17h00</td><td>08h00 – 12h00</td><td>Fermé</td></tr>
+            <tr><td class="fw-semibold">Laboratoire</td><td>07h30 – 16h30</td><td>08h00 – 12h00</td><td>Fermé</td></tr>
+          </tbody>
+        </table>
+      </div></div></div>
+    </div>
+  </section>
+  <section id="contact" class="py-5 bg-light">
+    <div class="container">
+      <div class="text-center mb-5"><h2 class="section-title">Coordonnées & Contact</h2><p class="text-muted">N'hésitez pas à nous contacter</p></div>
+      <div class="row g-4">
+        <div class="col-lg-5"><div class="contact-info p-4 rounded-4 bg-white shadow-sm h-100">
+          <h5 class="mb-4">Informations pratiques</h5>
+          <p class="mb-3"><i class="bi bi-geo-alt-fill text-primary me-2"></i><strong>Adresse :</strong><br>123 Avenue de la Santé, 75000 Paris</p>
+          <p class="mb-3"><i class="bi bi-telephone-fill text-primary me-2"></i><strong>Téléphone :</strong><br>01 23 45 67 89</p>
+          <p class="mb-3"><i class="bi bi-envelope-fill text-primary me-2"></i><strong>Email :</strong><br>contact@hopital-professionnel.fr</p>
+          <p class="mb-0"><i class="bi bi-clock-fill text-primary me-2"></i><strong>Urgences :</strong><br>Disponible 24h/24</p>
+        </div></div>
+        <div class="col-lg-7"><div class="contact-form p-4 rounded-4 bg-white shadow-sm h-100">
+          <h5 class="mb-4">Envoyez-nous un message</h5>
+          <form id="contactForm">
+            <div class="row g-3">
+              <div class="col-md-6"><label class="form-label">Nom complet</label><input type="text" class="form-control" id="name" required></div>
+              <div class="col-md-6"><label class="form-label">Email</label><input type="email" class="form-control" id="email" required></div>
+              <div class="col-12"><label class="form-label">Sujet</label><input type="text" class="form-control" id="subject" required></div>
+              <div class="col-12"><label class="form-label">Message</label><textarea class="form-control" id="message" rows="4" required></textarea></div>
+              <div class="col-12"><button type="submit" class="btn btn-primary px-4">Envoyer le message</button></div>
+            </div>
+          </form>
+          <div id="formAlert" class="alert alert-success mt-3 d-none">Merci ! Votre message a bien été envoyé.</div>
+        </div></div>
+      </div>
+    </div>
+  </section>
+  <footer class="bg-primary text-white py-4">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+          <div class="d-flex align-items-center justify-content-center justify-content-md-start">
+            <img src="https://cdn-icons-png.flaticon.com/512/2966/2966327.png" alt="Logo" width="32" height="32" class="me-2" style="filter: brightness(0) invert(1);">
+            <p class="mb-0">&copy; 2026 Hôpital Professionnel. Tous droits réservés.</p>
+          </div>
+        </div>
+        <div class="col-md-6 text-center text-md-end">
+          <a href="#" class="text-white me-3"><i class="bi bi-facebook"></i></a>
+          <a href="#" class="text-white me-3"><i class="bi bi-linkedin"></i></a>
+          <a href="#" class="text-white"><i class="bi bi-instagram"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <a href="https://wa.me/33123456789?text=Bonjour%2C%20je%20souhaite%20obtenir%20des%20informations%20sur%20l%27hôpital." class="whatsapp-float" target="_blank" rel="noopener noreferrer" aria-label="Contacter via WhatsApp"><i class="bi bi-whatsapp"></i></a>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
